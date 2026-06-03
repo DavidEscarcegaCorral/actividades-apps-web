@@ -31,3 +31,13 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### AI Tools ###
+.claude/
+.cursor/
+.windsurf/
+.codeium/
+.continue/
+.copilot/
+.aider*
+.github/copilot-instructions.md
