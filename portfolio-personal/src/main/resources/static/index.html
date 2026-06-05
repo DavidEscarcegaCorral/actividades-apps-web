@@ -21,10 +21,13 @@
     <main id="principal">
         <section>
             <h2>Sobre mí</h2>
-            <p>Estudiante de ingenieria en software apasionado por el desarrollo web y el uso de tecnologias nuevas.</p>
+            <div class="perfil">
+                <div class="foto-placeholder">Foto</div>
+                <p>Estudiante de ingenieria en software apasionado por el desarrollo web y el uso de tecnologias nuevas.</p>
+            </div>
         </section>
 
-        <section>
+        <section class="caja">
             <h2>Habilidades</h2>
 
             <h3>Lenguajes de programación</h3>
@@ -36,7 +39,7 @@
             </ol>
 
             <h3>Tecnologías y herramientas</h3>
-            <ul>
+            <ul class="skills-list">
                 <li>Spring Boot</li>
                 <li>React</li>
                 <li>Docker</li>
@@ -47,27 +50,29 @@
 
         <section>
             <h2>Historial académico</h2>
-            <table class="destacado">
-                <thead>
-                    <tr>
-                        <th>Institución</th>
-                        <th>Título</th>
-                        <th>Año</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Universidad Ejemplo</td>
-                        <td>Ingeniería en Sistemas</td>
-                        <td>2020 - 2025</td>
-                    </tr>
-                    <tr>
-                        <td>Instituto Técnico</td>
-                        <td>Técnico en Programación</td>
-                        <td>2018 - 2020</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="overflow-demo">
+                <table class="destacado">
+                    <thead>
+                        <tr>
+                            <th>Institución</th>
+                            <th>Título</th>
+                            <th>Año</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Universidad Ejemplo</td>
+                            <td>Ingeniería en Sistemas</td>
+                            <td>2020 - 2025</td>
+                        </tr>
+                        <tr>
+                            <td>Instituto Técnico</td>
+                            <td>Técnico en Programación</td>
+                            <td>2018 - 2020</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
 
         <section id="contacto">
